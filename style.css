@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(221, 221, 221);
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.bg{
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgba(255, 255, 255, 0.671);
+    width: 1193px;
+    height: 465px;
+    border-radius: 10px;
+    background: linear-gradient(148deg,#eb43eb, #5158f6, #20fcfc, #51fe5e,#fefd49, #fb4147);
+    background-size: 360% 360%;
+    animation: gradient-animation 10s ease infinite;
+    box-shadow: 5px 5px 10px #474343;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 10% 50%;
+  }
+}
+
+.row{
+  width: 100%;
+  height: 65px;
+}
+
+.one,.two,.three,.four,.five,.six {
+
+  margin: 10px 0 0 0;
+
+}
+
+button{
+  color: linear-gradient(148deg,#eb43eb, #5158f6, #20fcfc, #51fe5e,#fefd49, #fb4147);
+  width: 65px;
+  height: 65px;
+  border: none;
+  background-color: white;
+  box-shadow: 5px 5px 10px #474343;
+  font-size: 19px;
+  margin-left: 5px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+
+}
+
+.activebtn
+{
+  box-shadow: 1px 1px 2px #474343;
+}
+
+.back{
+  width: 140px;
+}
+
+.sim{
+  width: 103px;
+}
+
+.tab{
+  width: 103px;
+}
+
+.caps{
+  width: 115px;
+}
+
+.enter{
+  width: 165px;
+}
+
+.shift{
+  width: 150px;
+}
+
+.smshift{
+  width: 130px;
+}
+
+.space{
+  width: 510px;
+}
+
+.hide{
+  visibility: hidden;
+}
